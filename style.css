@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fredoka+One&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    position: relative;
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    width: 90%;  
+}
+
+header {
+    text-align: center;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    margin-bottom: 16px;
+    position: relative;
+    color: #a35c7a;
+}
+
+.description {
+    font-size: 16px;
+    font-style: italic;
+    color: #777; 
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+}
+
+h2 {
+    display: flex;
+    color: #a35c7a;
+    font-size: 25px;
+    margin-bottom: 16px;
+    align-items: center;
+    gap: 10px; 
+}
+
+.intro p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.intro ul {
+    margin-bottom: 16px;
+}
+
+.intro li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+    padding: 16px;
+    border: 16px solid #ddd;
+    border-radius: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a35c7a;
+}
+
+button {
+    justify-content: center;
+    gap: 8px;
+    background-color:#a35c7a;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;   
+} 
+
+button:hover {
+    background-color: #a35c7a;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.fun-facts {
+    margin-top: 16px;
+}
+
+.fun-fact {
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+    border-radius: 8px;
+    border-left: 2px solid rgb(133, 218, 239);   
+}
+
+.output-section {
+    background-color: #f0f7ff;
+    border-left: 2px solid#a35c7a;
+}
+
+.result {
+    font-size: 16px;
+    position: relative;
+    padding: 16px;
+    min-height: 60px;
+    background-color: white;
+    border: 2px #ddd;
+    border-radius: 10px; 
+}
+
+.emoji {
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    color: #777; 
+}
